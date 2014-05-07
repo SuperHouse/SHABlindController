@@ -1,0 +1,55 @@
+Partlist
+
+Exported from SHABlindController.sch at 17/02/2014 6:06 pm
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value            Device             Package                      Library                 Sheet
+
+BR1      MB1S             MB1S               SOIC-4                       rectifier               1
+C1                        C15/9              C15B9                        capacitor-wima          1
+C2       1uF 0603         CAP0603            0603                         freetronics             1
+C3       10uF 6.3V A TANT CAP_POL1206        EIA3216                      freetronics             1  http://www.digikey.com.au/product-detail/en/T491A106K006AT7280/399-10116-1-ND/3759233
+C4       100nF 0603       CAP0603            0603                         freetronics             1
+C5       100nF 0603       CAP0603            0603                         freetronics             1
+IC1      ATMEGA1284P-TQFP ATMEGA1284P-TQFP   TQFP44                       freetronics-jon         1  http://www.digikey.com.au/product-detail/en/ATMEGA1284P-AU/ATMEGA1284P-AU-ND/1914519
+IC2      XBEE-1B2         XBEE-1B2           XBEE-SILK                    xbee                    1
+IC3      MOC3042S         MOC3042S           DIL6-SMD                     freetronics-jon         1
+IC4      MOC3042S         MOC3042S           DIL6-SMD                     freetronics-jon         1
+JP1      ACTIVE           M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP2      NEUTRAL          M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP3      EARTH            M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP4      EARTH            M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP5      ACTIVE1          M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP6      ACTIVE2          M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP7      NEUTRAL          M01PTH_LARGE       1X01LARGE                    freetronics-master-v1.1 1  DO NOT PLACE, NO SOLDER IN HOLE
+JP8                       M06SIP             1X06                         freetronics-master-v1.1 1  1x6 male pin header
+JP9                       M04PTH             1X04                         freetronics-original    1  DO NOT PLACE, NO SOLDER IN HOLES
+JP10     ICSP:MAIN        PINHD-2X3          2X03                         pinhead                 1  2x3 male pin header
+LED1     ACTIVE1/GREEN    LED0603            LED-0603                     freetronics             1
+LED2     ACTIVE2/GREEN    LED0603            LED-0603                     freetronics             1
+LED3     D13/RED          LED0603            LED-0603                     freetronics             1
+LED4     RSSI/RED         LED0603            LED-0603                     freetronics             1
+LED5     D13/RED          LED0603            LED-0603                     freetronics             1
+R1       330R             RESISTOR0603       0603                         freetronics             1
+R2       330R             RESISTOR0603       0603                         freetronics             1
+R3       56R              RESISTOR0603       0603                         freetronics             1
+R4       330R             RESISTOR0603       0603                         freetronics             1
+R5       330R             RESISTOR0603       0603                         freetronics             1
+R6       330R             RESISTOR0603       0603                         freetronics             1
+R7       56R              RESISTOR0603       0603                         freetronics             1
+R8       330R             RESISTOR0603       0603                         freetronics             1
+R9       10K 0603         RESISTOR0603       0603                         freetronics             1
+R10      220R 0603        RESISTOR0603       0603                         freetronics             1
+R11      150R 0603        RESISTOR0603       0603                         freetronics             1
+R12      220R 0603        RESISTOR0603       0603                         freetronics             1
+REG1     LD1117-SOT89     V_REG_LM1117SOT89  SOT89                        freetronics             1  Place REG1 or REG2 only, not both
+REG2     LD1117-SOT223    V_REG_LM1117SOT223 SOT223                       freetronics             1  Place REG1 or REG2 only, not both
+SJ1      RESET-EN         SJCN               SJC                          freetronics-jon         1
+SW1      RESET            TAC_SWITCH_2PIN    TACTILE_SWITCH_SMD_2PIN_TINY freetronics-master-v1   1
+T1       MOC3042M         TRIACSMD           SOT223                       freetronics-original    1  http://www.digikey.com.au/product-detail/en/MOC3042SM/MOC3042SM-ND/401924
+T2       MOC3042M         TRIACSMD           SOT223                       freetronics-original    1  http://www.digikey.com.au/product-detail/en/MOC3042SM/MOC3042SM-ND/401924
+TR1                       EE20-2             EE20-2                       freetronics-jon         1  
+Y1       8MHz             RESONATORSMD       RESONATOR-SMD                SparkFun                1  http://www.digikey.com.au/product-detail/en/CSTCE8M00G52-R0/490-5994-1-ND/3845194
