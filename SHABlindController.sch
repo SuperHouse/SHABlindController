@@ -2477,7 +2477,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="IC3" library="freetronics-master-v1" deviceset="RXB1SHORT" device="FLAT" value="RXB1"/>
 <part name="PIEZO2" library="freetronics-jon" deviceset="PIEZOPOLARISED" device=""/>
 <part name="IC2" library="freetronics-jon" deviceset="HLKPM01" device=""/>
-<part name="F1" library="freetronics-jon" deviceset="PICOFUSE" device=""/>
+<part name="F1" library="freetronics-jon" deviceset="PICOFUSE" device="" value="250V 3A"/>
 </parts>
 <sheets>
 <sheet>
@@ -2576,7 +2576,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="NAME" x="142.748" y="35.7886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.828" y="35.052" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="165.1" y="22.86"/>
+<instance part="GND8" gate="1" x="165.1" y="12.7"/>
 <instance part="GND9" gate="1" x="165.1" y="63.5"/>
 <instance part="D1" gate="G$1" x="175.26" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.8" y="86.8426" size="1.778" layer="95"/>
@@ -2604,11 +2604,11 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="VALUE" x="151.892" y="68.072" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND11" gate="1" x="154.94" y="58.42"/>
-<instance part="R8" gate="G$1" x="154.94" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.7086" y="27.432" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="151.892" y="27.432" size="1.778" layer="96" rot="R270"/>
+<instance part="R8" gate="G$1" x="154.94" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="157.7086" y="22.352" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="151.892" y="22.352" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND12" gate="1" x="154.94" y="17.78"/>
+<instance part="GND12" gate="1" x="154.94" y="12.7"/>
 <instance part="IC3" gate="G$1" x="187.96" y="144.78" rot="MR90"/>
 <instance part="PIEZO2" gate="G$1" x="109.22" y="73.66"/>
 <instance part="IC2" gate="G$1" x="76.2" y="149.86"/>
@@ -2669,7 +2669,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="165.1" y1="25.4" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="15.24" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -3074,7 +3074,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="152.4" y1="33.02" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="30.48" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="25.4" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
 <junction x="154.94" y="33.02"/>
 </segment>
 </net>
